@@ -1,0 +1,48 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "hey there", "hello there", "hi bot", "yo", "howdy"],
+      "responses": ["Hello! How can I help you?", "Hi there!", "Hey! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "see you", "farewell", "catch you later", "i am leaving", "have a good day", "talk to you later"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "much appreciated", "thank you so much", "that was helpful", "cheers"],
+      "responses": ["You're welcome!", "Happy to help!", "Any time!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "what are you called", "tell me your name", "what should i call you", "introduce yourself"],
+      "responses": ["I'm SimpleAI, a tiny chatbot that learns from examples.", "My name is SimpleAI."]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how is it going", "how are you doing", "are you ok", "how do you feel", "what's up"],
+      "responses": ["I'm just code, but I'm running great!", "Doing well, thanks for asking!"]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["what can you do", "help", "what do you know", "how can you help me", "what are your abilities", "what are you able to do"],
+      "responses": ["I can chat about simple things, tell jokes, and explain how I work. Try asking me for a joke!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh", "say something funny", "do you know any jokes", "joke please", "i want a joke"],
+      "responses": [
+        "Why did the neural network break up with the dataset? It found too many outliers.",
+        "I would tell you a UDP joke, but you might not get it.",
+        "There are 10 kinds of people: those who understand binary and those who don't."
+      ]
+    },
+    {
+      "tag": "how_it_works",
+      "patterns": ["how do you work", "how were you made", "are you a real ai", "what algorithm do you use", "how do you understand me", "explain how you think"],
+      "responses": ["I use a Naive Bayes classifier: I split your message into words, then pick the intent whose training examples make those words most likely."]
+    }
+  ]
+}
